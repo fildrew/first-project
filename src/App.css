@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 6px 200px;
+  cursor: pointer;
+  background-color: chartreuse;
+}
+
+button:hover {  
+  transform: scale(1.1);
+}
+
+
+
