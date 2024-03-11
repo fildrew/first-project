@@ -6,7 +6,6 @@
   min-width: 100vw;
   min-height: 100vh;
   background-color:beige;
-  font-family: 'Courier New', Courier, monospace;
 }
 .components {
   display: flex;
@@ -25,14 +24,17 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 150px;
   height: 50px;
   border-radius: 15px;
   margin: 6px 200px;
   cursor: pointer;
   background-color: cyan;
-  box-shadow: 0 0 10px rgba(10, 240, 44, 0.1);
+  box-shadow: 0 0 10px rgba(224, 238, 226, 0.1);
+  padding: 10px 20px;
+  color:black;
 }
+
 
 button:hover {  
   transform: scale(1.1);
